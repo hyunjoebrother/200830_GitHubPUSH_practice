@@ -7,4 +7,4 @@ def index(req):
     return render(req, 'index.html')
 
 def blog(req):
-    reurn render(req, 'blog.html')
+    return render(req, 'blog.html')
