@@ -8,3 +8,6 @@ def index(req):
 
 def blog(req):
     return render(req, 'blog.html')
+
+def new(req):
+    return seventeen
