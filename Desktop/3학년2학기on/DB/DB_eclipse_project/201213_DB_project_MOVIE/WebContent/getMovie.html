@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>getMovie</title>
+</head>
+
+<body>
+	<!-- ID를 사용자로부터 form을 통해 입력받은 후
+	각 DAO의 get() 호출 후, 그 결과를 html로 표현 -->
+	
+	<form method = 'get' action="/201213_DB_project_MOVIE/ActorDAO">
+    actor_id = <input type="text" name = "actor_id"><br>
+    </form>
+    
+    <form method = 'get' action="/201213_DB_project_MOVIE/DirectorDAO">
+    director_id = <input type="text" name = "director_id"><br>
+    </form>
+    
+    <form method = 'get' action="/201213_DB_project_MOVIE/ProducerDAO">
+    producer_id = <input type="text" name = "producer_id"><br>
+    </form>
+    
+    <form method = 'get' action="/201213_DB_project_MOVIE/MovieDAO">
+    movie_id = <input type="text" name = "movie_id"><br>
+    </form>
+
+    <input type="submit" value = "ok"><br>
+
+</body>
+
+</html>

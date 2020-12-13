@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>insertMovie</title>
+</head>
+
+<body>
+	<!-- 각 값을 사용자로부터 form을 통해 입력받은 후
+	DAO의 insertTheDepartment() 호출 후 그 결과를 html로 표현 -->
+	
+	<form method = 'get' action="/201213_DB_project_MOVIE/ActorDAO">
+    Actor_name = <input type="text" name = "Actor_name"><br>
+    Actor_id = <input type="text" name = "Actor_id"><br>
+    Actor_bdate = <input type="text" name = "Actor_bdate"><br>
+    </form>
+    
+    <form method = 'get' action="/201213_DB_project_MOVIE/DirectorDAO">
+    Director_name = <input type="text" name = "Director_name"><br>
+    Director_id = <input type="text" name = "Director_id"><br>
+    Director_bdate = <input type="text" name = "Director_bdate"><br>
+    </form>
+    
+    <form method = 'get' action="/201213_DB_project_MOVIE/ProducerDAO">
+    Producer_name = <input type="text" name = "Producer_name"><br>
+    Producer_id = <input type="text" name = "Producer_id"><br>
+    Producer_bdate = <input type="text" name = "Producer_bdate"><br>
+    </form>
+    
+    <form method = 'get' action="/201213_DB_project_MOVIE/MovieDAO">
+    Title = <input type="text" name = "Title"><br>
+    Movie_id = <input type="text" name = "Movie_id"><br>
+    Genre = <input type="text" name = "Genre"><br>
+    Year = <input type="text" name = "Year"><br>
+    </form>
+    
+    <input type="submit" value = "ok"><br>
+</body>
+
+</html>
